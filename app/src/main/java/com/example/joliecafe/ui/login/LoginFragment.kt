@@ -1,7 +1,9 @@
 package com.example.joliecafe.ui.login
 
+import android.content.Context
 import android.os.Bundle
 import android.view.View
+import android.widget.Toast
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
 import com.example.joliecafe.R
@@ -18,6 +20,7 @@ class LoginFragment: Fragment(R.layout.fragment_login) {
         super.onViewCreated(view, savedInstanceState)
         binding = FragmentLoginBinding.bind(view)
         binding.button.setOnClickListener {
+            Toast.makeText(activity, "Test", Toast.LENGTH_LONG).show()
             navigateToRegisterFragment()
         }
         binding.button2.setOnClickListener{
