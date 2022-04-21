@@ -24,6 +24,7 @@ class LoginFragment: Fragment(R.layout.fragment_login) {
             navigateToRegisterFragment()
         }
         binding.button2.setOnClickListener{
+            Toast.makeText(activity, "Test2", Toast.LENGTH_LONG).show()
             navigateToHomeFragment()
         }
     }
