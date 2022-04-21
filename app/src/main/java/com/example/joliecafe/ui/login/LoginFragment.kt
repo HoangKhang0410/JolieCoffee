@@ -20,17 +20,17 @@ class LoginFragment: Fragment(R.layout.fragment_login) {
         super.onViewCreated(view, savedInstanceState)
         binding = FragmentLoginBinding.bind(view)
         binding.button.setOnClickListener {
-            Toast.makeText(activity, "Test", Toast.LENGTH_LONG).show()
+            Toast.makeText(activity, "Test", Toast.LENGTH_SHORT).show()
             navigateToRegisterFragment()
         }
         binding.button2.setOnClickListener{
-            Toast.makeText(activity, "Test4", Toast.LENGTH_LONG).show()
-            navigateToHomeFragment()
+            Toast.makeText(activity, "Test4", Toast.LENGTH_SHORT).show()
+            navigateToNavigateFragment()
         }
     }
 
-    private fun navigateToHomeFragment() {
-        findNavController().navigate(R.id.action_loginFragment_to_homeFragment)
+    private fun navigateToNavigateFragment() {
+        findNavController().navigate(R.id.action_loginFragment_to_navigateFragment)
     }
 
     private fun navigateToRegisterFragment(){
