@@ -20,36 +20,36 @@ class NavigateFragment : Fragment(R.layout.fragment_navigate) {
         super.onViewCreated(view, savedInstanceState)
         binding = FragmentNavigateBinding.bind(view)
 
+        loadFragment(HomeFragment())
+
         binding.bnvHome.setOnItemSelectedListener { item ->
-            val frg: Fragment
-            val id = item.itemId
-            when (id) {
+            when (item.itemId) {
                 R.id.bottom_home -> {
-                    frg = HomeFragment()
+                    val frg: Fragment = HomeFragment()
                     loadFragment(frg)
                     //viewModel.setFragment(frg)
-                    return@setOnItemSelectedListener true
+                    true
                 }
                 R.id.bottom_favorite -> {
-                    frg = FavoriteFragment()
+                    val frg: Fragment = FavoriteFragment()
                     loadFragment(frg)
                     //viewModel.setFragment(frg)
-                    return@setOnItemSelectedListener true
+                    true
                 }
                 R.id.bottom_cart -> {
-                    frg = CartFragment()
+                    val frg: Fragment = CartFragment()
                     loadFragment(frg)
                     //viewModel.setFragment(frg)
-                    return@setOnItemSelectedListener true
+                    true
                 }
                 R.id.bottom_profile -> {
-                    frg = ProfileFragment()
+                    val frg: Fragment = ProfileFragment()
                     loadFragment(frg)
                     //viewModel.setFragment(frg)
-                    return@setOnItemSelectedListener true
+                    true
                 }
+                else -> false
             }
-            false
         }
 
     }
@@ -58,7 +58,7 @@ class NavigateFragment : Fragment(R.layout.fragment_navigate) {
         // load fragment
         val transaction = childFragmentManager.beginTransaction()
         transaction.replace(R.id.frame_container, fragment)
-        transaction.addToBackStack(null)
+        //transaction.addToBackStack(null)
         transaction.commit()
     }
 }
