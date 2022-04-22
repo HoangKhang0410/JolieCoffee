@@ -1,339 +1,375 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
     android:background="@color/primary"
-    android:orientation="vertical">
+    android:scrollbars="none"
+    android:layout_height="match_parent">
 
-
-    <TableRow
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginHorizontal="20dp"
-        android:layout_marginTop="20dp">
-
-        <de.hdodenhof.circleimageview.CircleImageView
-            android:id="@+id/iv_avt"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:src="@drawable/img_default_avt" />
-
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="8dp"
-            android:orientation="vertical">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Hi, Latte!"
-                android:textColor="@color/title"
-                android:textSize="20sp" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="email@gmail.com"
-                android:textColor="@color/text"
-                android:textSize="14sp" />
+        android:orientation="vertical">
 
 
-        </LinearLayout>
-
-
-        <View
-            android:layout_width="wrap_content"
-            android:layout_height="0dp"
-            android:layout_weight="1" />
-
-        <ImageView
-            android:layout_width="32sp"
-            android:layout_height="32sp"
-            android:layout_gravity="center"
-            android:src="@drawable/ic_notifications"
-            app:tint="@color/text" />
-
-    </TableRow>
-
-    <com.google.android.material.textfield.TextInputLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginHorizontal="20dp"
-        android:layout_marginTop="30dp"
-        android:background="@drawable/bg_card_corner_30"
-        app:endIconMode="clear_text"
-        app:endIconTint="@color/text"
-        app:hintAnimationEnabled="false"
-        app:hintEnabled="false">
-
-        <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/et_username"
+        <TableRow
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@android:color/transparent"
-            android:drawableStart="@drawable/ic_search"
-            android:drawablePadding="15dp"
-            android:drawableTint="@color/text"
-            android:hint="Search for your coffee..."
-            android:imeOptions="actionSearch"
-            android:inputType="text"
-            android:padding="15dp"
-            android:textColor="@color/text"
-            android:textColorHint="@color/text"
-            android:textSize="18sp" />
-    </com.google.android.material.textfield.TextInputLayout>
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="20dp">
 
-
-    <com.smarteist.autoimageslider.SliderView
-        android:id="@+id/imageSlider"
-        android:layout_marginTop="25dp"
-        android:layout_marginHorizontal="20dp"
-        android:layout_width="match_parent"
-        android:layout_height="200dp"
-        app:sliderAnimationDuration="600"
-        app:sliderAutoCycleDirection="back_and_forth"
-        app:sliderAutoCycleEnabled="true"
-        app:sliderIndicatorAnimationDuration="600"
-        app:sliderIndicatorGravity="center_horizontal|bottom"
-        app:sliderIndicatorMargin="15dp"
-        app:sliderIndicatorOrientation="horizontal"
-        app:sliderIndicatorPadding="5dp"
-        app:sliderIndicatorRadius="1dp"
-        app:sliderIndicatorSelectedColor="@color/title"
-        app:sliderIndicatorUnselectedColor="@color/text"
-        app:sliderScrollTimeInSec="1"
-        app:sliderStartAutoCycle="true" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Categories"
-        android:layout_marginTop="20dp"
-        android:layout_marginHorizontal="20dp"
-        android:textColor="@color/title"
-        android:textSize="20sp" />
-
-    <TableRow
-        android:layout_height="wrap_content"
-        android:layout_width="match_parent"
-        android:layout_marginTop="15dp"
-        android:layout_marginHorizontal="20dp">
-
-        <LinearLayout android:layout_height="wrap_content"
-            android:layout_width="wrap_content"
-            android:gravity="center"
-            android:layout_weight="1"
-            android:orientation="vertical">
-
-            <ImageView
-                android:id="@+id/iv_all"
-                android:layout_height="50dp"
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/iv_avt"
                 android:layout_width="50dp"
-                android:src="@drawable/ic_star_border"
-                android:padding="5dp"
-                android:background="@drawable/bg_card_circle"
-                app:tint="@color/text" />
+                android:layout_height="50dp"
+                android:src="@drawable/img_default_avt" />
 
-            <TextView
+            <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="All"
-                android:textAlignment="center"
-                android:textColor="@color/text"
-                android:textSize="14sp" />
+                android:layout_marginStart="8dp"
+                android:orientation="vertical">
 
-        </LinearLayout>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Hi, Latte!"
+                    android:textColor="@color/title"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="email@gmail.com"
+                    android:textColor="@color/text"
+                    android:textSize="14sp" />
 
 
-        <LinearLayout android:layout_height="wrap_content"
-            android:layout_width="wrap_content"
-            android:gravity="center"
-            android:layout_weight="1"
-            android:orientation="vertical">
+            </LinearLayout>
+
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
 
             <ImageView
-                android:id="@+id/iv_coffee"
-                android:layout_height="50dp"
-                android:layout_width="50dp"
-                android:src="@drawable/ic_star_border"
-                android:padding="5dp"
-                android:background="@drawable/bg_card_circle"
+                android:layout_width="32sp"
+                android:layout_height="32sp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_notifications"
                 app:tint="@color/text" />
 
-            <TextView
-                android:layout_width="wrap_content"
+        </TableRow>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/bg_card_corner_30"
+            app:endIconMode="clear_text"
+            app:endIconTint="@color/text"
+            app:hintAnimationEnabled="false"
+            app:hintEnabled="false">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/et_username"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Coffee"
-                android:textAlignment="center"
+                android:background="@android:color/transparent"
+                android:drawableStart="@drawable/ic_search"
+                android:drawablePadding="15dp"
+                android:drawableTint="@color/text"
+                android:hint="Search for your coffee..."
+                android:imeOptions="actionSearch"
+                android:inputType="text"
+                android:padding="15dp"
                 android:textColor="@color/text"
-                android:textSize="14sp" />
+                android:textColorHint="@color/text"
+                android:textSize="18sp" />
+        </com.google.android.material.textfield.TextInputLayout>
 
-        </LinearLayout>
 
-        <LinearLayout android:layout_height="wrap_content"
+        <com.smarteist.autoimageslider.SliderView
+            android:id="@+id/imageSlider"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="25dp"
+            app:sliderAnimationDuration="600"
+            app:sliderAutoCycleDirection="back_and_forth"
+            app:sliderAutoCycleEnabled="true"
+            app:sliderIndicatorAnimationDuration="600"
+            app:sliderIndicatorGravity="center_horizontal|bottom"
+            app:sliderIndicatorMargin="15dp"
+            app:sliderIndicatorOrientation="horizontal"
+            app:sliderIndicatorPadding="5dp"
+            app:sliderIndicatorRadius="1dp"
+            app:sliderIndicatorSelectedColor="@color/title"
+            app:sliderIndicatorUnselectedColor="@color/text"
+            app:sliderScrollTimeInSec="1"
+            app:sliderStartAutoCycle="true" />
+
+        <TextView
             android:layout_width="wrap_content"
-            android:gravity="center"
-            android:layout_weight="1"
-            android:orientation="vertical">
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="20dp"
+            android:text="Categories"
+            android:textColor="@color/title"
+            android:textSize="20sp" />
 
-            <ImageView
-                android:id="@+id/iv_tea"
-                android:layout_height="50dp"
-                android:layout_width="50dp"
-                android:src="@drawable/ic_star_border"
-                android:padding="5dp"
-                android:background="@drawable/bg_card_circle"
-                app:tint="@color/text" />
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="15dp">
 
-            <TextView
+            <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Tea"
-                android:textAlignment="center"
-                android:textColor="@color/text"
-                android:textSize="14sp" />
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
 
-        </LinearLayout>
+                <ImageView
+                    android:id="@+id/iv_all"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/bg_card_circle"
+                    android:padding="5dp"
+                    android:src="@drawable/ic_star_border"
+                    app:tint="@color/text" />
 
-        <LinearLayout android:layout_height="wrap_content"
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="All"
+                    android:textAlignment="center"
+                    android:textColor="@color/text"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/iv_coffee"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/bg_card_circle"
+                    android:padding="5dp"
+                    android:src="@drawable/ic_star_border"
+                    app:tint="@color/text" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Coffee"
+                    android:textAlignment="center"
+                    android:textColor="@color/text"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/iv_tea"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/bg_card_circle"
+                    android:padding="5dp"
+                    android:src="@drawable/ic_star_border"
+                    app:tint="@color/text" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tea"
+                    android:textAlignment="center"
+                    android:textColor="@color/text"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/iv_juice"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/bg_card_circle"
+                    android:padding="5dp"
+                    android:src="@drawable/ic_star_border"
+                    app:tint="@color/text" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Juice"
+                    android:textAlignment="center"
+                    android:textColor="@color/text"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="15dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/iv_pastry"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/bg_card_circle"
+                    android:padding="5dp"
+                    android:src="@drawable/ic_star_border"
+                    app:tint="@color/text" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Pastry"
+                    android:textAlignment="center"
+                    android:textColor="@color/text"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/iv_coffee2"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/bg_card_circle"
+                    android:padding="5dp"
+                    android:src="@drawable/ic_star_border"
+                    app:tint="@color/text" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Coffee"
+                    android:textAlignment="center"
+                    android:textColor="@color/text"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/iv_tea2"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/bg_card_circle"
+                    android:padding="5dp"
+                    android:src="@drawable/ic_star_border"
+                    app:tint="@color/text" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tea"
+                    android:textAlignment="center"
+                    android:textColor="@color/text"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/iv_more"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/bg_card_circle"
+                    android:padding="5dp"
+                    android:src="@drawable/ic_more"
+                    app:tint="@color/text" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="More"
+                    android:textAlignment="center"
+                    android:textColor="@color/text"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+
+
+        </TableRow>
+
+        <TextView
             android:layout_width="wrap_content"
-            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="20dp"
+            android:text="Best sellers"
+            android:textColor="@color/title"
+            android:textSize="20sp" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_product"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="10dp"
             android:layout_weight="1"
-            android:orientation="vertical">
-
-            <ImageView
-                android:id="@+id/iv_juice"
-                android:layout_height="50dp"
-                android:layout_width="50dp"
-                android:src="@drawable/ic_star_border"
-                android:padding="5dp"
-                android:background="@drawable/bg_card_circle"
-                app:tint="@color/text" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Juice"
-                android:textAlignment="center"
-                android:textColor="@color/text"
-                android:textSize="14sp" />
-
-        </LinearLayout>
+            android:nestedScrollingEnabled="false"
+            android:layout_marginBottom="60dp"
+            tools:listitem="@layout/item_home_product" />
 
 
-    </TableRow>
+    </LinearLayout>
 
-    <TableRow
-        android:layout_height="wrap_content"
-        android:layout_width="match_parent"
-        android:layout_marginTop="15dp"
-        android:layout_marginHorizontal="20dp">
-
-        <LinearLayout android:layout_height="wrap_content"
-            android:layout_width="wrap_content"
-            android:gravity="center"
-            android:layout_weight="1"
-            android:orientation="vertical">
-
-            <ImageView
-                android:id="@+id/iv_pastry"
-                android:layout_height="50dp"
-                android:layout_width="50dp"
-                android:src="@drawable/ic_star_border"
-                android:padding="5dp"
-                android:background="@drawable/bg_card_circle"
-                app:tint="@color/text" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Pastry"
-                android:textAlignment="center"
-                android:textColor="@color/text"
-                android:textSize="14sp" />
-
-        </LinearLayout>
-
-
-        <LinearLayout android:layout_height="wrap_content"
-            android:layout_width="wrap_content"
-            android:gravity="center"
-            android:layout_weight="1"
-            android:orientation="vertical">
-
-            <ImageView
-                android:id="@+id/iv_coffee2"
-                android:layout_height="50dp"
-                android:layout_width="50dp"
-                android:src="@drawable/ic_star_border"
-                android:padding="5dp"
-                android:background="@drawable/bg_card_circle"
-                app:tint="@color/text" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Coffee"
-                android:textAlignment="center"
-                android:textColor="@color/text"
-                android:textSize="14sp" />
-
-        </LinearLayout>
-
-        <LinearLayout android:layout_height="wrap_content"
-            android:layout_width="wrap_content"
-            android:gravity="center"
-            android:layout_weight="1"
-            android:orientation="vertical">
-
-            <ImageView
-                android:id="@+id/iv_tea2"
-                android:layout_height="50dp"
-                android:layout_width="50dp"
-                android:src="@drawable/ic_star_border"
-                android:padding="5dp"
-                android:background="@drawable/bg_card_circle"
-                app:tint="@color/text" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Tea"
-                android:textAlignment="center"
-                android:textColor="@color/text"
-                android:textSize="14sp" />
-
-        </LinearLayout>
-
-        <LinearLayout android:layout_height="wrap_content"
-            android:layout_width="wrap_content"
-            android:gravity="center"
-            android:layout_weight="1"
-            android:orientation="vertical">
-
-            <ImageView
-                android:id="@+id/iv_more"
-                android:layout_height="50dp"
-                android:layout_width="50dp"
-                android:src="@drawable/ic_star_border"
-                android:padding="5dp"
-                android:background="@drawable/bg_card_circle"
-                app:tint="@color/text" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="More"
-                android:textAlignment="center"
-                android:textColor="@color/text"
-                android:textSize="14sp" />
-
-        </LinearLayout>
-
-
-    </TableRow>
-
-
-</LinearLayout>
+</ScrollView>

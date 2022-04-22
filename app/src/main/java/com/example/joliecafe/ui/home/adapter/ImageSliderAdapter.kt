@@ -1,4 +1,4 @@
-package com.example.joliecafe.ui.home
+package com.example.joliecafe.ui.home.adapter
 
 import android.view.LayoutInflater
 import android.view.View
