@@ -1,5 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Khang/third-year/Kotlin/JolieCafe/app/src/main/res/drawable/bg_button_profile.xml" value="0.2955" />
+        <entry key="..\:/Khang/third-year/Kotlin/JolieCafe/app/src/main/res/drawable/bg_light_primary_corner_10.xml" value="0.2955" />
+        <entry key="..\:/Khang/third-year/Kotlin/JolieCafe/app/src/main/res/drawable/ic_cart.xml" value="0.2955" />
+        <entry key="..\:/Khang/third-year/Kotlin/JolieCafe/app/src/main/res/drawable/ic_location.xml" value="0.2955" />
+        <entry key="..\:/Khang/third-year/Kotlin/JolieCafe/app/src/main/res/drawable/ic_profile.xml" value="0.2955" />
+        <entry key="..\:/Khang/third-year/Kotlin/JolieCafe/app/src/main/res/layout/fragment_cart.xml" value="0.296195652173913" />
+        <entry key="..\:/Khang/third-year/Kotlin/JolieCafe/app/src/main/res/layout/fragment_favorite.xml" value="0.296195652173913" />
+        <entry key="..\:/Khang/third-year/Kotlin/JolieCafe/app/src/main/res/layout/fragment_home.xml" value="0.296195652173913" />
+        <entry key="..\:/Khang/third-year/Kotlin/JolieCafe/app/src/main/res/layout/fragment_profile.xml" value="0.296195652173913" />
+        <entry key="..\:/Khang/third-year/Kotlin/JolieCafe/app/src/main/res/layout/item_home_product.xml" value="0.296195652173913" />
+        <entry key="..\:/Khang/third-year/Kotlin/JolieCafe/app/src/main/res/layout/personal_profile.xml" value="0.296195652173913" />
+      </map>
+    </option>
+  </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>

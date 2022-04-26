@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/primary"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="20dp"
+        >
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/iv_avt"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/img_cafe_2"
+            android:layout_gravity="center_horizontal"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sweet Latte"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginVertical="10dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Profile"
+            android:textAlignment="textStart"
+            android:padding="15dp"
+            android:drawablePadding="10dp"
+            android:drawableStart="@drawable/ic_profile"
+            android:background="@drawable/bg_button_profile"
+            android:textColor="@color/white"
+            android:layout_marginVertical="10dp"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Adress Book"
+            android:textAlignment="textStart"
+            android:padding="15dp"
+            android:drawablePadding="10dp"
+            android:drawableStart="@drawable/ic_location"
+            android:background="@drawable/bg_button_profile"
+            android:textColor="@color/white"
+            android:layout_marginVertical="10dp"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Order History"
+            android:textAlignment="textStart"
+            android:padding="15dp"
+            android:drawablePadding="10dp"
+            android:drawableStart="@drawable/ic_history"
+            android:background="@drawable/bg_button_profile"
+            android:textColor="@color/white"
+            android:layout_marginVertical="10dp"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Settings"
+            android:textAlignment="textStart"
+            android:padding="15dp"
+            android:drawablePadding="10dp"
+            android:drawableStart="@drawable/ic_settings"
+            android:background="@drawable/bg_button_profile"
+            android:textColor="@color/white"
+            android:layout_marginVertical="10dp"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sign out"
+            android:textAlignment="textStart"
+            android:padding="15dp"
+            android:drawablePadding="10dp"
+            android:drawableStart="@drawable/ic_logout"
+            android:background="@drawable/bg_button_profile"
+            android:textColor="@color/white"
+            android:layout_marginVertical="10dp"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>
