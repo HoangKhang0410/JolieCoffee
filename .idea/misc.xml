@@ -3,17 +3,24 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Khang/third-year/Kotlin/JolieCafe/app/src/main/res/drawable/bg_button_profile.xml" value="0.2955" />
-        <entry key="..\:/Khang/third-year/Kotlin/JolieCafe/app/src/main/res/drawable/bg_light_primary_corner_10.xml" value="0.2955" />
-        <entry key="..\:/Khang/third-year/Kotlin/JolieCafe/app/src/main/res/drawable/ic_cart.xml" value="0.2955" />
-        <entry key="..\:/Khang/third-year/Kotlin/JolieCafe/app/src/main/res/drawable/ic_location.xml" value="0.2955" />
-        <entry key="..\:/Khang/third-year/Kotlin/JolieCafe/app/src/main/res/drawable/ic_profile.xml" value="0.2955" />
-        <entry key="..\:/Khang/third-year/Kotlin/JolieCafe/app/src/main/res/layout/fragment_cart.xml" value="0.296195652173913" />
-        <entry key="..\:/Khang/third-year/Kotlin/JolieCafe/app/src/main/res/layout/fragment_favorite.xml" value="0.296195652173913" />
-        <entry key="..\:/Khang/third-year/Kotlin/JolieCafe/app/src/main/res/layout/fragment_home.xml" value="0.296195652173913" />
-        <entry key="..\:/Khang/third-year/Kotlin/JolieCafe/app/src/main/res/layout/fragment_profile.xml" value="0.296195652173913" />
-        <entry key="..\:/Khang/third-year/Kotlin/JolieCafe/app/src/main/res/layout/item_home_product.xml" value="0.296195652173913" />
-        <entry key="..\:/Khang/third-year/Kotlin/JolieCafe/app/src/main/res/layout/personal_profile.xml" value="0.296195652173913" />
+        <entry key="..\:/Users/maiph/Desktop/JolieCoffee/app/src/main/res/drawable/bg_bottom_navigation_bar.xml" value="0.1205" />
+        <entry key="..\:/Users/maiph/Desktop/JolieCoffee/app/src/main/res/drawable/bg_button_profile.xml" value="0.1205" />
+        <entry key="..\:/Users/maiph/Desktop/JolieCoffee/app/src/main/res/drawable/bg_card_cirlce.xml" value="0.1205" />
+        <entry key="..\:/Users/maiph/Desktop/JolieCoffee/app/src/main/res/drawable/bg_card_corner_30.xml" value="0.1205" />
+        <entry key="..\:/Users/maiph/Desktop/JolieCoffee/app/src/main/res/drawable/bg_transparent_corner_10.xml" value="0.1205" />
+        <entry key="..\:/Users/maiph/Desktop/JolieCoffee/app/src/main/res/drawable/ic_home.xml" value="0.1205" />
+        <entry key="..\:/Users/maiph/Desktop/JolieCoffee/app/src/main/res/layout/activity_main.xml" value="0.184375" />
+        <entry key="..\:/Users/maiph/Desktop/JolieCoffee/app/src/main/res/layout/fragment_cart.xml" value="0.15945945945945947" />
+        <entry key="..\:/Users/maiph/Desktop/JolieCoffee/app/src/main/res/layout/fragment_favorite.xml" value="0.15945945945945947" />
+        <entry key="..\:/Users/maiph/Desktop/JolieCoffee/app/src/main/res/layout/fragment_home.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/maiph/Desktop/JolieCoffee/app/src/main/res/layout/fragment_login.xml" value="0.184375" />
+        <entry key="..\:/Users/maiph/Desktop/JolieCoffee/app/src/main/res/layout/fragment_navigate.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/maiph/Desktop/JolieCoffee/app/src/main/res/layout/fragment_profile.xml" value="0.15945945945945947" />
+        <entry key="..\:/Users/maiph/Desktop/JolieCoffee/app/src/main/res/layout/fragment_register.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/maiph/Desktop/JolieCoffee/app/src/main/res/layout/item_home_product.xml" value="0.22" />
+        <entry key="..\:/Users/maiph/Desktop/JolieCoffee/app/src/main/res/layout/item_image_slider.xml" value="0.12" />
+        <entry key="..\:/Users/maiph/Desktop/JolieCoffee/app/src/main/res/layout/personal_profile.xml" value="0.15945945945945947" />
+        <entry key="..\:/Users/maiph/Desktop/JolieCoffee/app/src/main/res/menu/menu_bottom_navigation.xml" value="0.15945945945945947" />
       </map>
     </option>
   </component>
