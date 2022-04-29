@@ -11,7 +11,6 @@
     <color name="card">#5C4E44</color>
     <color name="primary_200">#BC834B</color>
     <color name="secondary">#CBC1B5</color>
-    <color name="error">#CC3E3E</color>
     <color name="title">#E7A15C</color>
     <color name="text">#E4E4E4</color>
 </resources>
