@@ -3,6 +3,21 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Kotlin/JolieCoffee/app/src/main/res/drawable/bg_light_primary_corner_10.xml" value="0.2115" />
+        <entry key="..\:/Kotlin/JolieCoffee/app/src/main/res/drawable/ic_cart.xml" value="0.1185" />
+        <entry key="..\:/Kotlin/JolieCoffee/app/src/main/res/drawable/ic_facebook.xml" value="0.1185" />
+        <entry key="..\:/Kotlin/JolieCoffee/app/src/main/res/drawable/ic_favorite.xml" value="0.2115" />
+        <entry key="..\:/Kotlin/JolieCoffee/app/src/main/res/drawable/ic_home.xml" value="0.1185" />
+        <entry key="..\:/Kotlin/JolieCoffee/app/src/main/res/drawable/ic_notifications.xml" value="0.1185" />
+        <entry key="..\:/Kotlin/JolieCoffee/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Kotlin/JolieCoffee/app/src/main/res/layout/fragment_blank.xml" value="0.1" />
+        <entry key="..\:/Kotlin/JolieCoffee/app/src/main/res/layout/fragment_home.xml" value="0.1" />
+        <entry key="..\:/Kotlin/JolieCoffee/app/src/main/res/layout/fragment_login.xml" value="0.1" />
+        <entry key="..\:/Kotlin/JolieCoffee/app/src/main/res/layout/fragment_profile.xml" value="0.1" />
+        <entry key="..\:/Kotlin/JolieCoffee/app/src/main/res/layout/fragment_register.xml" value="0.33" />
+        <entry key="..\:/Kotlin/JolieCoffee/app/src/main/res/layout/fragment_signin.xml" value="0.20416666666666666" />
+        <entry key="..\:/Kotlin/JolieCoffee/app/src/main/res/layout/item_home_product.xml" value="0.10729166666666666" />
+        <entry key="..\:/Kotlin/JolieCoffee/app/src/main/res/layout/item_image_slider.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/maiph/Desktop/JolieCoffee/app/src/main/res/drawable/bg_bottom_navigation_bar.xml" value="0.1205" />
         <entry key="..\:/Users/maiph/Desktop/JolieCoffee/app/src/main/res/drawable/bg_card_cirlce.xml" value="0.1205" />
         <entry key="..\:/Users/maiph/Desktop/JolieCoffee/app/src/main/res/drawable/bg_card_corner_30.xml" value="0.1205" />
@@ -22,7 +37,7 @@
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">
