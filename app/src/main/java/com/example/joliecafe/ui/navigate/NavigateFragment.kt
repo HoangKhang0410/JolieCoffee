@@ -3,6 +3,7 @@ package com.example.joliecafe.ui.navigate
 import android.os.Bundle
 import android.view.View
 import androidx.fragment.app.Fragment
+import androidx.navigation.fragment.findNavController
 import com.example.joliecafe.R
 import com.example.joliecafe.databinding.FragmentNavigateBinding
 import com.example.joliecafe.ui.cart.CartFragment
@@ -61,4 +62,6 @@ class NavigateFragment : Fragment(R.layout.fragment_navigate) {
         //transaction.addToBackStack(null)
         transaction.commit()
     }
+
+
 }

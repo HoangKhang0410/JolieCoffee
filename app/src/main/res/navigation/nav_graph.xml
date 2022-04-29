@@ -14,6 +14,9 @@
         <action
             android:id="@+id/action_loginFragment_to_navigateFragment"
             app:destination="@id/navigateFragment" />
+        <action
+            android:id="@+id/action_loginFragment_to_forgotPassFragment"
+            app:destination="@id/forgotPassFragment" />
     </fragment>
     <fragment
         android:id="@+id/registerFragment"
@@ -22,5 +25,17 @@
     <fragment
         android:id="@+id/navigateFragment"
         android:name="com.example.joliecafe.ui.navigate.NavigateFragment"
-        android:label="NavigateFragment" />
+        android:label="NavigateFragment" >
+        <action
+            android:id="@+id/action_navigateFragment_to_editProfileFragment"
+            app:destination="@id/editProfileFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/forgotPassFragment"
+        android:name="com.example.joliecafe.ui.forgotPass.ForgotPassFragment"
+        android:label="ForgotPassFragment" />
+    <fragment
+        android:id="@+id/editProfileFragment"
+        android:name="com.example.joliecafe.ui.profile.EditProfileFragment"
+        android:label="EditProfileFragment" />
 </navigation>

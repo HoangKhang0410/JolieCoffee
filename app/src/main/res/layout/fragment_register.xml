@@ -32,15 +32,15 @@
             android:text="SIGN UP"
             android:textColor="@color/primary_200"
             android:textSize="30sp"
-            android:paddingTop="25px"
-            android:paddingBottom="32px"
+            android:paddingTop="25dp"
+            android:paddingBottom="32dp"
             />
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
 
         android:background="@android:color/transparent"
-        android:paddingBottom="14sp"
+        android:paddingBottom="14dp"
         android:orientation="vertical">
         <TextView
             android:id="@+id/textView3"
@@ -64,7 +64,7 @@
         android:layout_height="wrap_content"
 
         android:background="@android:color/transparent"
-        android:paddingBottom="14sp"
+        android:paddingBottom="14dp"
         android:orientation="vertical">
         <TextView
             android:layout_width="wrap_content"
@@ -87,7 +87,7 @@
         android:layout_height="wrap_content"
 
         android:background="@android:color/transparent"
-        android:paddingBottom="14sp"
+        android:paddingBottom="14dp"
         android:orientation="vertical">
         <TextView
             android:id="@+id/textView5"
@@ -111,10 +111,10 @@
         android:layout_height="wrap_content"
 
         android:background="@android:color/transparent"
-        android:paddingBottom="14sp"
+        android:paddingBottom="14dp"
         android:orientation="vertical">
         <TextView
-            android:id="@+id/textView6"
+            android:id="@+id/tv_forgot_pass"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Confirm Password"
@@ -141,9 +141,9 @@
             android:background="@drawable/bg_light_primary_corner_10"
             android:bottomLeftRadius="10dp"
             android:bottomRightRadius="10dp"
-            android:layout_marginTop="20sp"
+            android:layout_marginTop="20dp"
             android:text="SIGN UP"
-            android:textSize="16dp"
+            android:textSize="16sp"
             android:topLeftRadius="10dp"
             android:topRightRadius="10dp"
             />
@@ -152,7 +152,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="- OR -"
-            android:textSize="16dp"
+            android:textSize="16sp"
             android:paddingTop="14dp"
             android:textColor="@color/text"
             />

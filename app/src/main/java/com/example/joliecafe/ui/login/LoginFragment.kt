@@ -19,13 +19,14 @@ class LoginFragment: Fragment(R.layout.fragment_login) {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         binding = FragmentLoginBinding.bind(view)
-        binding.button.setOnClickListener {
-            Toast.makeText(activity, "Test", Toast.LENGTH_SHORT).show()
+        binding.textClickedSignup.setOnClickListener {
             navigateToRegisterFragment()
         }
-        binding.button2.setOnClickListener{
-            Toast.makeText(activity, "Test4", Toast.LENGTH_SHORT).show()
+        binding.btnSignup.setOnClickListener{
             navigateToNavigateFragment()
+        }
+        binding.tvForgotPass.setOnClickListener {
+            navigateToForgotPassFragment()
         }
     }
 
@@ -35,5 +36,8 @@ class LoginFragment: Fragment(R.layout.fragment_login) {
 
     private fun navigateToRegisterFragment(){
         findNavController().navigate(R.id.action_loginFragment_to_registerFragment)
+    }
+    private fun navigateToForgotPassFragment(){
+        findNavController().navigate(R.id.action_loginFragment_to_forgotPassFragment)
     }
 }

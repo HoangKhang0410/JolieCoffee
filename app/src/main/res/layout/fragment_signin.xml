@@ -1,63 +1,59 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:background="@color/primary"
     android:layout_height="match_parent"
+    android:background="@color/primary"
     android:paddingLeft="20dp"
     android:paddingRight="20dp">
+
     <LinearLayout
         android:id="@+id/ll_main_layout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:gravity="center_horizontal"
         android:background="@android:color/transparent"
-
+        android:gravity="center_horizontal"
         android:orientation="vertical">
 
-
         <TextView
-
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Jolie Cafe"
-            android:textSize="50sp"
             android:paddingTop="42dp"
+            android:text="Jolie Cafe"
             android:textColor="@color/text"
-            />
+            android:textSize="50sp" />
 
         <TextView
-
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:paddingTop="50dp"
+            android:paddingBottom="32dp"
             android:text="SIGN IN"
             android:textColor="@color/primary_200"
-            android:textSize="30sp"
-            android:paddingTop="50pt"
-            android:paddingBottom="32px"
-            />
+            android:textSize="30sp" />
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-
             android:background="@android:color/transparent"
-            android:paddingBottom="14sp"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:paddingBottom="14sp">
+
             <TextView
                 android:id="@+id/textView3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_gravity="start"
                 android:text="Username"
-                android:textSize="20sp"
                 android:textColor="@color/text"
-                android:layout_gravity="start"/>
+                android:textSize="20sp" />
 
             <EditText
                 android:id="@+id/editText_Username"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:backgroundTint="@color/text"
                 android:ems="10"
-                android:inputType="textPersonName"
-                android:backgroundTint="@color/text" />
+                android:inputType="textPersonName" />
         </LinearLayout>
 
         <LinearLayout
@@ -65,40 +61,43 @@
             android:layout_height="wrap_content"
 
             android:background="@android:color/transparent"
-            android:paddingBottom="8sp"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:paddingBottom="8sp">
+
             <TextView
                 android:id="@+id/textView5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_gravity="start"
                 android:text="Password"
-                android:textSize="20sp"
                 android:textColor="@color/text"
-                android:layout_gravity="start"/>
+                android:textSize="20sp" />
 
             <EditText
                 android:id="@+id/editText_Password"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:backgroundTint="@color/text"
                 android:ems="10"
-                android:inputType="textPassword"
-                android:backgroundTint="@color/text"/>
+                android:inputType="textPassword" />
         </LinearLayout>
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
 
             android:background="@android:color/transparent"
-            android:paddingBottom="14sp"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:paddingBottom="14sp">
+
             <TextView
-                android:id="@+id/textView6"
+                android:id="@+id/tv_forgot_pass"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_gravity="start"
                 android:text="Forgot password?"
-                android:textSize="20sp"
                 android:textColor="@color/primary_200"
-                android:layout_gravity="start"/>
+                android:textSize="20sp" />
 
 
         </LinearLayout>
@@ -107,80 +106,80 @@
             android:id="@+id/btn_signup"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="20sp"
             android:width="150sp"
-            android:textColor="@color/text"
             android:background="@drawable/bg_light_primary_corner_10"
             android:bottomLeftRadius="10dp"
             android:bottomRightRadius="10dp"
-            android:layout_marginTop="20sp"
             android:text="SIGN IN"
+            android:textColor="@color/text"
             android:textSize="16dp"
             android:topLeftRadius="10dp"
-            android:topRightRadius="10dp"
-            />
+            android:topRightRadius="10dp" />
+
         <TextView
 
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="- OR -"
-            android:textSize="16dp"
             android:paddingTop="14dp"
+            android:text="- OR -"
             android:textColor="@color/text"
-            />
+            android:textSize="16dp" />
+
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:background="@android:color/transparent"
-            android:paddingBottom="16sp"
+            android:orientation="horizontal"
             android:paddingTop="16sp"
-            android:orientation="horizontal">
-            <ImageView
-                android:layout_width="41dp"
-                android:layout_height="41dp"
-                android:src="@drawable/ic_facebook"
-                android:id="@+id/icon_facebook"/>
+            android:paddingBottom="16sp">
 
             <ImageView
+                android:id="@+id/icon_facebook"
                 android:layout_width="41dp"
                 android:layout_height="41dp"
-                android:src="@drawable/ic_google"
-                android:background="@color/text"
-                android:layout_marginLeft="20dp"
+                android:src="@drawable/ic_facebook" />
+
+            <ImageView
                 android:id="@+id/icon_google"
-                />
+                android:layout_width="41dp"
+                android:layout_height="41dp"
+                android:layout_marginLeft="20dp"
+                android:background="@color/text"
+                android:src="@drawable/ic_google" />
         </LinearLayout>
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:background="@android:color/transparent"
-        android:paddingBottom="16sp"
-        android:paddingTop="16sp"
-        android:orientation="horizontal">
-        <TextView
 
+        <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Not signed up yet?"
-            android:textSize="14dp"
-            android:paddingTop="16dp"
-            android:textColor="@color/text"
-            android:paddingVertical="5dp"
+            android:layout_gravity="center"
+            android:background="@android:color/transparent"
+            android:orientation="horizontal"
+            android:paddingTop="16sp"
+            android:paddingBottom="16sp">
 
-            />
-        <TextView
-            android:id="@+id/text_clicked_signup"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text=" Sign up here"
-            android:textSize="14dp"
-            android:paddingTop="16dp"
-            android:textColor="@color/primary_200"
-            android:paddingVertical="5dp"
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingVertical="5dp"
+                android:paddingTop="16dp"
+                android:text="Not signed up yet?"
+                android:textColor="@color/text"
+                android:textSize="14dp"
+                />
 
-            />
+            <TextView
+                android:id="@+id/text_clicked_signup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingVertical="5dp"
+                android:paddingTop="16dp"
+                android:text=" Sign up here"
+                android:textColor="@color/primary_200"
+                android:textSize="14dp"
+                />
 
-    </LinearLayout>
+        </LinearLayout>
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
