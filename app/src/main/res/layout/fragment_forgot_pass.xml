@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/primary"
+    android:layout_height="match_parent"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp">
+    <LinearLayout
+        android:id="@+id/ll_main_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:background="@android:color/transparent"
+
+        android:orientation="vertical">
+
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jolie Cafe"
+            android:textSize="50sp"
+            android:paddingTop="42dp"
+            android:textColor="@color/text"
+            />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FORGOT YOUR PASSWORD?"
+            android:textColor="@color/primary_200"
+            android:textSize="25sp"
+            android:paddingTop="60pt"
+            android:paddingBottom="32px"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:background="@android:color/transparent"
+            android:paddingBottom="14sp"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="No worries! Enter your email address and we'll help you reset your password."
+                android:textSize="18sp"
+                android:textColor="@color/text"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:paddingBottom="16sp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Email"
+                android:textSize="20sp"
+                android:textColor="@color/text"
+                android:layout_gravity="start"/>
+
+            <EditText
+                android:id="@+id/editText_Email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textEmailAddress"
+                android:backgroundTint="@color/text"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:background="@android:color/transparent"
+            android:paddingBottom="14sp"
+
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/btn_cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:width="104sp"
+                android:textColor="@color/text"
+                android:background="@android:color/transparent"
+                android:bottomLeftRadius="10dp"
+                android:bottomRightRadius="10dp"
+                android:layout_marginTop="20sp"
+                android:text="Cancel"
+                android:textSize="16dp"
+                android:topLeftRadius="10dp"
+                android:topRightRadius="10dp"
+
+                />
+            <Button
+                android:id="@+id/btn_confirm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:width="104sp"
+                android:textColor="@color/text"
+                android:background="@drawable/bg_light_primary_corner_10"
+                android:bottomLeftRadius="10dp"
+                android:bottomRightRadius="10dp"
+                android:layout_marginTop="20sp"
+                android:text="Confirm"
+                android:textSize="16dp"
+                android:topLeftRadius="10dp"
+                android:topRightRadius="10dp"
+                android:layout_marginLeft="10dp"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
