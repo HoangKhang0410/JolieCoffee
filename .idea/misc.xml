@@ -3,7 +3,6 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-<<<<<<< HEAD
         <entry key="..\:/Kotlin/JolieCoffee/app/src/main/res/drawable/bg_light_primary_corner_10.xml" value="0.2115" />
         <entry key="..\:/Kotlin/JolieCoffee/app/src/main/res/drawable/ic_cart.xml" value="0.1185" />
         <entry key="..\:/Kotlin/JolieCoffee/app/src/main/res/drawable/ic_facebook.xml" value="0.1185" />
@@ -12,13 +11,15 @@
         <entry key="..\:/Kotlin/JolieCoffee/app/src/main/res/drawable/ic_notifications.xml" value="0.1185" />
         <entry key="..\:/Kotlin/JolieCoffee/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/Kotlin/JolieCoffee/app/src/main/res/layout/fragment_blank.xml" value="0.1" />
+        <entry key="..\:/Kotlin/JolieCoffee/app/src/main/res/layout/fragment_forgot_pass.xml" value="0.22" />
         <entry key="..\:/Kotlin/JolieCoffee/app/src/main/res/layout/fragment_home.xml" value="0.1" />
         <entry key="..\:/Kotlin/JolieCoffee/app/src/main/res/layout/fragment_login.xml" value="0.1" />
         <entry key="..\:/Kotlin/JolieCoffee/app/src/main/res/layout/fragment_profile.xml" value="0.1" />
         <entry key="..\:/Kotlin/JolieCoffee/app/src/main/res/layout/fragment_register.xml" value="0.33" />
-        <entry key="..\:/Kotlin/JolieCoffee/app/src/main/res/layout/fragment_signin.xml" value="0.20416666666666666" />
+        <entry key="..\:/Kotlin/JolieCoffee/app/src/main/res/layout/fragment_signin.xml" value="0.25" />
         <entry key="..\:/Kotlin/JolieCoffee/app/src/main/res/layout/item_home_product.xml" value="0.10729166666666666" />
         <entry key="..\:/Kotlin/JolieCoffee/app/src/main/res/layout/item_image_slider.xml" value="0.20416666666666666" />
+        <entry key="..\:/Kotlin/JolieCoffee/app/src/main/res/layout/personal_profile.xml" value="0.1" />
         <entry key="..\:/Users/maiph/Desktop/JolieCoffee/app/src/main/res/drawable/bg_bottom_navigation_bar.xml" value="0.1205" />
         <entry key="..\:/Users/maiph/Desktop/JolieCoffee/app/src/main/res/drawable/bg_card_cirlce.xml" value="0.1205" />
         <entry key="..\:/Users/maiph/Desktop/JolieCoffee/app/src/main/res/drawable/bg_card_corner_30.xml" value="0.1205" />
@@ -35,19 +36,6 @@
         <entry key="..\:/Users/maiph/Desktop/JolieCoffee/app/src/main/res/layout/item_home_product.xml" value="0.22" />
         <entry key="..\:/Users/maiph/Desktop/JolieCoffee/app/src/main/res/layout/item_image_slider.xml" value="0.12" />
         <entry key="..\:/Users/maiph/Desktop/JolieCoffee/app/src/main/res/menu/menu_bottom_navigation.xml" value="0.15945945945945947" />
-=======
-        <entry key="..\:/Khang/third-year/Kotlin/JolieCafe/app/src/main/res/drawable/bg_button_profile.xml" value="0.2955" />
-        <entry key="..\:/Khang/third-year/Kotlin/JolieCafe/app/src/main/res/drawable/bg_light_primary_corner_10.xml" value="0.2955" />
-        <entry key="..\:/Khang/third-year/Kotlin/JolieCafe/app/src/main/res/drawable/ic_cart.xml" value="0.2955" />
-        <entry key="..\:/Khang/third-year/Kotlin/JolieCafe/app/src/main/res/drawable/ic_location.xml" value="0.2955" />
-        <entry key="..\:/Khang/third-year/Kotlin/JolieCafe/app/src/main/res/drawable/ic_profile.xml" value="0.2955" />
-        <entry key="..\:/Khang/third-year/Kotlin/JolieCafe/app/src/main/res/layout/fragment_cart.xml" value="0.296195652173913" />
-        <entry key="..\:/Khang/third-year/Kotlin/JolieCafe/app/src/main/res/layout/fragment_favorite.xml" value="0.296195652173913" />
-        <entry key="..\:/Khang/third-year/Kotlin/JolieCafe/app/src/main/res/layout/fragment_home.xml" value="0.296195652173913" />
-        <entry key="..\:/Khang/third-year/Kotlin/JolieCafe/app/src/main/res/layout/fragment_profile.xml" value="0.296195652173913" />
-        <entry key="..\:/Khang/third-year/Kotlin/JolieCafe/app/src/main/res/layout/item_home_product.xml" value="0.296195652173913" />
-        <entry key="..\:/Khang/third-year/Kotlin/JolieCafe/app/src/main/res/layout/personal_profile.xml" value="0.296195652173913" />
->>>>>>> 298a6cb5ce8715fdad8cf23470e3deb325e944ad
       </map>
     </option>
   </component>
