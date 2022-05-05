@@ -24,7 +24,7 @@ class HomeFragment : Fragment(R.layout.fragment_home) {
         binding = FragmentHomeBinding.bind(view)
         val imageList: ArrayList<Int> = ArrayList()
         imageList.add(R.drawable.img_cafe_1)
-        imageList.add(R.drawable.img_cafe_2)
+        imageList.add(R.drawable.img_cafe_1)
         imageList.add(R.drawable.img_cafe_1)
         setImageInSlider(imageList, binding.imageSlider)
 

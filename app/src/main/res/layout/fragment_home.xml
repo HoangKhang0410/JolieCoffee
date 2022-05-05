@@ -23,7 +23,7 @@
                 android:id="@+id/iv_avt"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:src="@drawable/img_default_avt" />
+                android:src="@drawable/image_logo" />
 
             <LinearLayout
                 android:layout_width="wrap_content"
